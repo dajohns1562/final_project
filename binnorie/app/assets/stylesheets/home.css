@@ -8,6 +8,8 @@
 }
 
 .food_information {
+  width: 960px;
+  margin: 0 auto;
   display: inline-grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 15em 3em 8em 3em;
