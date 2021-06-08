@@ -3,32 +3,14 @@
 .grey {
   background-color: #333333;
   width: 100%;
-  height: 100px;
+  height: 130px;
   margin: 0 auto;
-}
-
-.grey-footer {
-  background-color: #333333;
-  width: 100%;
-  height: 300px;
-  margin: 0 auto;
-}
-
-.footer-text {
-  border: 1px solid white;
-}
-
-.footer-text p {
-  font-family: droid-serif,serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
 }
 
 .transparent {
   background-color: rgba(51, 51, 51, 0.5);
   width: 100%;
-  height: 100px;
+  height: 122px;
 }
 
 .main-logo {
@@ -47,6 +29,60 @@ nav {
 }
 
 .footer-logo {
-  max-width: 8em;
-  display: inline;
+  max-width: 11.5em;
+  padding-top: 10px;
+  margin-left: 10px;
+
+}
+
+.grey-footer {
+  background-color: #333333;
+  width: 100%;
+  height: 260px;
+  margin: 0 auto;
+  display: inline-grid;
+  grid-template-columns: 17% 32%;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+.footer-text {
+  font-family: droid-serif,serif;
+  font-style: normal;
+  color: white;
+}
+
+.contact-footer {
+list-style-type: none;
+line-height: 30px;
+font-size: 15px;
+}
+
+.contact-details-footer {
+  margin-left: 32px;
+  font-weight: 400;
+  color: #f47b21;
+  font-size: 20px;
+}
+
+.enquires-footer {
+  color: #f47b21;
+}
+
+.navbar-wrapper {
+    position:relative;
+}
+.carousel {
+    top:0;
+}
+.carousel-inner {
+    width: 100%;
+    overflow: hidden;
+    }
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: rgb(0, 0, 0); opacity: 0.85;
+    width:100%;
 }
