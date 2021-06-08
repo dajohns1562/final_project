@@ -1,4 +1,4 @@
- @import url("https://use.typekit.net/ypu4ipn.css");s
+ @import url("https://use.typekit.net/ypu4ipn.css");
 
 .container {
   font-family: droid-serif,serif;
@@ -29,6 +29,7 @@
   text-align: center;
   margin-left: 17em;
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .cheese_charcuterie {
